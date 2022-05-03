@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Righteous', cursive;
+}
+
+#salary{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#btn{
+    width: 5rem;
+    height: 2rem;
+    background-color: grey;
+    border: none;
+    margin-top: 10px;
+}
+
+#btn:active{
+    transform: scale(0.95);
+}
+
+#result{
+    width: 400px;
+    height: 200px;
+    border: 1px solid;
+    margin-top: 20px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    font-size: 30px;
+}
